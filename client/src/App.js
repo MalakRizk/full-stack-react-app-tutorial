@@ -104,7 +104,7 @@ class App extends Component{
                 { this.state.cityList.length > 0  && <option>Select a city.</option> }
                 { this.state.cityList.map((city, i) => <option key={i}>{city}</option>) }
               </Input>
-            </FormGroup>?
+            </FormGroup>
           </Col>
         </Row>
         <Weather data={this.state.weather}/>
